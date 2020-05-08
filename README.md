@@ -1,3 +1,24 @@
+ npm i -D enzyme jest-enzyme enzyme-adapter-react-16
+
+ ### Test must be easy to maintain
+ You must test behavior (what the app should do) instead test implementation(How it works).  
+ Ideally not want to rewrite test after a refactor, if the implementation changes, test remain the same.  
+ Testing implementation is brittle(easily broken when app still works).
+
+ .1 Set initial state.  
+ .2 Simulate changes on initial state.  
+ .3 check if the state change responds to your expectations.  
+
+ ### Unit Testing
+ Granular testing leads to.  
+ Brittle test.  
+ ### Integration test
+ More robust test.  
+ More difficult to find out what cause failure.  
+
+  https://github.com/flyrightsister/udemy-react-testing-projects
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
