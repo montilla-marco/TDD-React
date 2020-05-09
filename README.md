@@ -1,5 +1,7 @@
  npm i -D enzyme jest-enzyme enzyme-adapter-react-16
 
+La sabiduría no es producto de la escolarización, sino del intento de adquirirla durante toda la vida.  
+
  ### Test must be easy to maintain
  You must test behavior (what the app should do) instead test implementation(How it works).  
  Ideally not want to rewrite test after a refactor, if the implementation changes, test remain the same.  
@@ -20,6 +22,19 @@
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Jest 
+Jest is a delightful JavaScript Testing Framework with a focus on simplicity.  
+It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more.  
+https://jestjs.io/en/  
+
+## Enzyme
+Enzyme is a JavaScript Testing utility for React that makes it easier to assert, manipulate, and traverse your React Components' output. It was developed at Airbnb and later transferred to an independent organization.  
+
+Enzyme's API is meant to be intuitive and flexible by mimicking jQuery's API for DOM manipulation and traversal.  
+
+Enzyme is unopinionated regarding which test runner or assertion library you use, and should be compatible with all major test runners and assertion libraries out there. The documentation and examples for enzyme use mocha and chai, but you should be able to extrapolate to your framework of choice.  
+
 
 ## Available Scripts
 
